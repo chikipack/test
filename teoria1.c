@@ -19,7 +19,7 @@ char beta4, beta5;
 
 int Opcion(){
 	
-	printf("Escoger desde:\n1.-Teclado\n2.-Archivo\n");
+	printf("Escoger desde:\n1.-Teclado\n2.-Archivo\n\n");
 	fflush(stdin);
 
 	if(scanf("%d",&opc) != 1){
